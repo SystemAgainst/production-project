@@ -9,4 +9,6 @@ export type BuildPaths = {
 export type BuildOptions = {
     mode: BuildMode;
     paths: BuildPaths;
+    isDev: boolean;
+    port: number;
 };
