@@ -17,3 +17,5 @@ Source maps позволяют связывать скомпилированны
 
 ---
 
+https://webpack.js.org/guides/environment-variables/
+

@@ -6,6 +6,11 @@ export type BuildPaths = {
     html: string;
 };
 
+export type BuildEnv = {
+    mode: BuildMode;
+    port: number;
+}
+
 export type BuildOptions = {
     mode: BuildMode;
     paths: BuildPaths;
